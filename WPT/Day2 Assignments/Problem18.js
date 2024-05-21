@@ -1,36 +1,44 @@
-const input1 = document.querySelector('#str1')
-const input2 = document.querySelector('#str2')
-const input3 = document.querySelector('#str3')
-const buttons = document.querySelector('#button')
+const string1 = document.getElementById("string");
+const subString = document.getElementById("sub-string");
+const replaceString = document.getElementById("replace-string");
+const operations = document.getElementsByName("operation");
+const out = document.getElementById("out");
 
-console.log(input1.value)
-
-// buttons.addEventListener('submit', function(e){
-//     e.preventDefault()
-//     const str1 = input1.value
-//     const str2 = input2.value
-//     const str3 = input3.value
-
-//     validateString(str1)
-// })
-
-// function validateString(str){
-//     if(str === '' || str.length < 3){
-//         alert('Please enter a string with at least 3 characters')
-// }
-// else{
-
-// }
-// }
-const key = document.getElementsByName("radio")
-const key2 = key.id;
-console.log(key2);
-
-// switch (key) {
-//     case value:
-        
-//         break;
-
-//     default:
-//         break;
-// }
+document.getElementById("btn").addEventListener("click", () => {
+  console.log(operations);
+  let index = -1;
+  for (let i = 0; i < operations.length; i++) {
+    if (operations[i].checked) {
+      index = i;
+    }
+  }
+  console.log(index);
+  switch (index) {
+    case 0:
+      out.innerHTML = `"${subString.value}" found in "${
+        string1.value
+      }" at index ${string1.value.indexOf(subString.value)}`;
+      break;
+    case 1:
+      out.innerHTML = string1.value.toUpperCase();
+      break;
+    case 2:
+      out.innerHTML = string1.value.toLowerCase();
+      break;
+    case 3:
+      out.innerHTML = string1.value.trim();
+      break;
+    case 4:
+      out.innerHTML = string1.value.concat(subString.value);
+      break;
+    case 5:
+      out.innerHTML = string1.value.replace(
+        subString.value,
+        replaceString.value
+      );
+      break;
+    default:
+      out.innerHTML = `Please Select an operation`;
+      break;
+  }
+});

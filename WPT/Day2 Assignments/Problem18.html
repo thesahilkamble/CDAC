@@ -5,35 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Problem18.css" />
 </head>
 
 <body>
     <form>
-        <div class = "str-div">
-            <label for="str1">Enter string :</label>
-            <input type="text" name="string" id="str1">
-        </div>
-        <div class = "str-div">
-            <label for="str1">Enter sub string :</label>
-            <input type="text" name="string" id="str2">
-        </div>
-        <div class = "str-div">
-            <label for="str1">Replace with string :</label>
-            <input type="text" name="string" id="str3">
-        </div>
-        <div>
-            <input type="radio" name="radio" id="search">Search substring in main substring
-            <input type="radio" name="radio"  id="uppercase">To upper case
-            <input type="radio" name="radio"  id="lowercase">To lower case
-            <input type="radio" name="radio" id="trim">Trim spaces
-            <input type="radio" name="radio" id="concatenate">Concatenate
-            <input type="radio" name="radio" id="replace">Replace
-        </div>
-<div class ="str-div">
-    <button id="button">Submit Querry</button>
-</div>
+        <label for="string">String:</label>
+        <input type="text" name="string" placeholder="Enter String" id="string"><br>
+        <label for="sub-string">Sub String:</label>
+        <input type="text" name="sub-string" placeholder="Enter Sub String" id="sub-string"><br>
+        <label for="replace-string">Replace String:</label>
+        <input type="text" name="replace-string" placeholder="Enter Replace String" id="replace-string"><br>
+    <fieldset style="width: max-content;">
+    <legend>Operations</legend>
+        <input type="radio" name="operation" id="search">
+        <label for="search">Search Substring in main string</label><br>
+        <input type="radio" name="operation" id="upper">
+        <label for="upper">To Upper Case</label><br>
+        <input type="radio" name="operation" id="lower">
+        <label for="lower">To Lower Case</label><br>
+        <input type="radio" name="operation" id="trim">
+        <label for="trim">Trim Spaces</label><br>
+        <input type="radio" name="operation" id="concatinate">
+        <label for="concatinate">Concatinate</label><br>
+        <input type="radio" name="operation" id="replace">
+        <label for="replace">Replace</label><br>
+    </fieldset>
+        <button type="button" id="btn">Submit Query</button>
     </form>
+
+    <div id="out"></div>
+    <script src="Problem18.js"></script>
 </body>
-<script src = "Problem18.js"></script>
+
 </html>
