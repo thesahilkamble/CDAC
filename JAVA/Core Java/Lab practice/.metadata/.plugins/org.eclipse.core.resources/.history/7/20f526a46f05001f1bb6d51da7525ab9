@@ -1,0 +1,43 @@
+package com.Pen;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Pens {
+	
+	public static ArrayList<StyleWithPen> pen = new ArrayList<>();
+	public static SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+	public static Scanner sc = new Scanner(System.in);
+//	public static StyleWithPen pen = new StyleWithPen();
+	public static void main(String[] args) {
+		
+		boolean exit = false;
+		int choice = 0;
+		
+		while(!exit)
+		{
+			System.out.println("Enter Choice: ");
+			choice = sc.nextInt();
+			
+			switch(choice)
+			{
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+				
+			case 4:
+				break;
+				
+			}
+			
+		}
+		
+		
+
+		
+	}
+}

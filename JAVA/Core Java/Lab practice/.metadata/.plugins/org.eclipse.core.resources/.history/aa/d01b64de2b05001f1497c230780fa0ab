@@ -1,0 +1,12 @@
+package com.Pen;
+
+public class Utils {
+	
+	public static void addPen() {
+		
+		System.out.println("Enter the Brand name: ");
+		
+		
+	}
+}
+

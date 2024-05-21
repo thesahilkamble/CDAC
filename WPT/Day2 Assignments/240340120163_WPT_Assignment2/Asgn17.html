@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 17</title>
+    <script src="../jquery/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#mainContent").css({ "border": "2px solid blue", "width": "15vw" });
+            $("#btn").click(function () {
+                var r = parseFloat($("#radius").val())
+                var area = (Math.PI * r * r).toFixed(2);
+                $("#area").html(`Area : ${area}`);
+                var circumference = (2 * Math.PI * r).toFixed(2);
+                $("#circumference").html(`Circumference : ${circumference}`);
+            })
+        })
+
+    </script>
+</head>
+
+<body>
+    <div id="mainContent">
+        <div id="inputInfo">
+            <label for="radii">Enter Radius :</label>
+            <input type="text" name="radii" id="radius">
+            <br><br>
+            <button id="btn">display</button>
+        </div>
+        <br>
+        <div id="area"></div><br>
+        <div id="circumference"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+import java.util.Scanner;
+
+public class FixedStack implements Stack {
+
+	int top = -1;
+	Customer fixedStack[] = new Customer[STACK_SIZE];
+
+	@Override
+	public void push(Customer c) {
+		if (top == fixedStack.length) {
+			System.out.println("Stack is Full!!");
+		} else {
+			top++;
+			fixedStack[top] = c;
+
+		}
+	}
+
+	@Override
+	public void pop() {
+
+		if (top == -1) {
+			System.out.println("Stack is Empty!");
+		} else {
+			fixedStack[top] = null;
+			top--;
+		}
+
+	}
+
+	public void display() {
+		for (Customer f : fixedStack) {
+			if (f != null)
+				System.out.println(f);
+
+		}
+	}
+
+	@Override
+	public void growPush(Customer c) {
+		if (top == fixedStack.length) {
+			System.out.println("Stack is Full! \n Do you wish to increase stack size (Y/N) ?");
+			Scanner sc = new Scanner(System.in);
+			String ch = sc.next();
+			if (ch == "Y") {
+				System.out.println("Increase stack size by: ");
+				int increment = sc.nextInt();
+				Customer[] newStack = new Customer[fixedStack.length + increment];
+				for (int i = 0; i <= fixedStack.length; i++) {
+					newStack[i] = fixedStack[i];
+				}
+				fixedStack = newStack;
+				System.out.println("Stack Size increased succsefully!");
+			}
+			sc.close();
+		}
+
+		else {
+			top++;
+			fixedStack[top] = c;
+		}
+	}
+
+	@Override
+	public void growPop() {
+
+		if (top == -1) {
+			System.out.println("Stack is Empty!");
+		} else {
+			fixedStack[top] = null;
+			top--;
+		}
+
+	}
+
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 18</title>
+    <script src="../jquery/jquery-3.7.1.min.js"></script>
+    <script>
+
+        // $(document).ready(function () {
+        //     $('#btn').click(function () {
+        //         var subq = document.getElementById("subString").value;
+        //         var str = document.getElementById("string").value;
+        //         if ($('#srch').select) {
+        //             var q = str.indexOf(subq);
+        //             if (q >= 0 && subq.trim().length > 0) {
+        //                 document.getElementById('res').innerHTML = `Result: Found String`;
+        //             }
+        //             else if (q == -1 && subq.trim().length > 0) {
+        //                 document.getElementById('res').innerHTML = `Result is not found`;
+        //             }
+        //             else {
+        //                 document.getElementById('res').innerHTML = `Enter some subString`;
+        //             }
+        //         }
+        //     })
+        // })
+        const submitQuery = () => {
+            var subq = document.getElementById("subString").value;
+            var str = document.getElementById("string").value;
+            //Searching substring
+            if (document.getElementById('srch').checked) {
+                var q = str.indexOf(subq);
+                if (q >= 0 && subq.trim().length > 0) {
+                    document.getElementById('res').innerHTML = `Result: Found String`;
+                }
+                else if (q == -1 && subq.trim().length > 0) {
+                    document.getElementById('res').innerHTML = `Result is not found`;
+                }
+                else {
+                    document.getElementById('res').innerHTML = `Enter some subString`;
+                }
+            }
+
+            //To upper case
+            if (document.getElementById('upr').checked) {
+                // var a = document.getElementById('string').value;
+                var r = str.toUpperCase();
+                document.getElementById('res').innerHTML = `Upper Case: ${r}`;
+            }
+
+            //To lower case
+            if (document.getElementById('lowr').checked) {
+                // var a = document.getElementById('string').value;
+                var r = str.toLowerCase();
+                document.getElementById('res').innerHTML = `Lower Case: ${r}`;
+            }
+
+            //Trim Spaces
+            if (document.getElementById('trm').checked) {
+                var r = str.split(' ').join('');
+                console.log(r);
+                document.getElementById('res').innerHTML = `trim string : ${r}`;
+            }
+
+            //Concatenate
+            if (document.getElementById('conct').checked) {
+                var r = str.concat(" ", subq);
+                document.getElementById('res').innerHTML = `Concatenated string : ${r}`;
+            }
+
+            //Replace
+            if (document.getElementById('repl').checked) {
+                var repl = document.getElementById('repString').value;
+                var r = str.replace(str, repl);
+                document.getElementById('res').innerHTML = `Replaced string : ${r}`;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="mainContent">
+        <div id="inputInfo">
+            <label for="str">Enter String :</label>
+            <input type="text" name="str" id="string"><br>
+            <label for="subStr">Enter Sub String :</label>
+            <input type="text" name="subStr" id="subString"><br>
+            <label for="repStr">Replace with String :</label>
+            <input type="text" name="repStr" id="repString"><br>
+        </div>
+        <div id="optselect">
+            <input type="radio" id="srch" name="opt" value="search">
+            <label for="srch">Search substring in main string</label>
+            <input type="radio" id="upr" name="opt" value="upper">
+            <label for="upr">To Upper Case</label>
+            <input type="radio" id="lowr" name="opt" value="lower">
+            <label for="lowr">To Lower Case</label>
+            <input type="radio" id="trm" name="opt" value="trim">
+            <label for="trm">Trim Spaces</label>
+            <input type="radio" id="conct" name="opt" value="concat">
+            <label for="conct">Concatenate</label>
+            <input type="radio" id="repl" name="opt" value="replace">
+            <label for="repl">replace</label>
+        </div>
+        <button type="button" id="btn" onclick="submitQuery()">Submit Query</button>
+    </div>
+    <div id="res"></div>
+</body>
+
+</html>

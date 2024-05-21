@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+
+    <script>
+        function calculateFunction() {
+            var num1 = parseInt(document.getElementById("num1").value);
+            var num2 = parseInt(document.getElementById("num2").value);
+            var operator = document.getElementById("operator").value;
+
+            switch (operator) {
+                case "+":
+                    document.getElementById("result").innerHTML = "Answer: " + `${num1 + num2}`;
+                    break;
+                case "-":
+                    document.getElementById("result").innerHTML = "Answer: " + `${num1 - num2}`;
+                    break;
+                case "*":
+                    document.getElementById("result").innerHTML = "Answer: " + `${num1 * num2}`;
+                    break;
+                case "/":
+                    document.getElementById("result").innerHTML = "Answer: " + `${num1 / num2}`;
+                    break;
+                default:
+                    document.getElementById("result").innerHTML = "Invalid Operator";
+                    break;
+            }
+            
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <label for="num1" class="caption">Enter first number:</label>
+    <input type="number" class="num" id="num1" required>
+    <br>
+    <label for="num2" class="caption">Enter second number:</label>
+    <input type="number" class="num" id="num2" required>
+    <br>
+    <label for="num3" class="caption">Enter Operator</label>
+    <input type="text" class="num" id="operator" required>
+    <br>
+    <button id="btn" onclick="calculateFunction()">Calculate</button>
+
+    <p id="result"></p>
+
+</body>
+
+</html>

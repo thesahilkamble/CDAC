@@ -1,0 +1,48 @@
+package com.Grocery;
+
+public class Grocery {
+
+	public Grocery(String name, int ppu, int quantity, date dt) {
+		super();
+		this.name = name;
+		Ppu = ppu;
+		this.quantity = quantity;
+		this.dt = dt;
+	}
+	
+	@Override
+	public String toString() {
+		return "Grocery [name=" + name + ", Ppu=" + Ppu + ", quantity=" + quantity + "]";
+	}
+
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getPpu() {
+		return Ppu;
+	}
+	public void setPpu(int ppu) {
+		Ppu = ppu;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	public date getDt() {
+		return dt;
+	}
+	public void setDt(date dt) {
+		this.dt = dt;
+	}
+	private String name;
+	private int Ppu;
+	private int quantity;
+	private date dt;
+	
+}
+

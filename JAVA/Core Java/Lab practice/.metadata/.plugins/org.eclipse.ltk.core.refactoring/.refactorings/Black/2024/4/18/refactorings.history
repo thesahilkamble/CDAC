@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;penManager.java&apos; to &apos;PenManager.java&apos;&#x0D;&#x0A;- Original project: &apos;Black&apos;&#x0D;&#x0A;- Original element: &apos;penManager.java&apos;&#x0D;&#x0A;- Renamed element: &apos;PenManager.java&apos;" description="Rename compilation unit &apos;penManager.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{penManager.java" name="PenManager.java" references="false" stamp="1714286088975" version="1.0"/>
+</session>

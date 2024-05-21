@@ -1,0 +1,11 @@
+File opened, we are writing this in file from ofstream cpp 
+new line to check ifstream this should be fun 
+file handling isn not that hard
+
+
+ashasd
+asfasf
+asfasfasf
+asfasfsfas
+dfa
+sf

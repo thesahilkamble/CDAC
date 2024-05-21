@@ -1,0 +1,16 @@
+package com.Pen;
+
+import java.time.LocalDate;
+
+public class StyleWithPen {
+	
+	private String brand;
+	private String color;
+	private String inkColor;
+	private String material;
+	private int Stock;
+	private LocalDate stockListingDate;
+	private double discount = 0.0;
+	
+	
+}

@@ -1,0 +1,12 @@
+package com.Pen;
+
+import java.util.Scanner;
+
+public class Pens {
+	
+	public static Scanner sc = new Scanner(System.in);
+	public static StyleWithPen penList = new StyleWithPen();
+	public static void main(String[] args) {
+		
+	}
+}

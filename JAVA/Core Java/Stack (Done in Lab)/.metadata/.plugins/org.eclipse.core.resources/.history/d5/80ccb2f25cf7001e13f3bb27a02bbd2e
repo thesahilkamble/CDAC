@@ -1,0 +1,14 @@
+
+public interface Stack {
+
+	public static final int STACK_SIZE = 3;
+	
+	// Implementation function
+	
+	public void push(Customer c);
+	public void pop();
+	void growPush(Customer c);
+	public void growPop();
+	
+	
+}

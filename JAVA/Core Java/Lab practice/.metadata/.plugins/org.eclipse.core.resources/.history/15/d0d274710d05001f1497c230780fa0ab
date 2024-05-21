@@ -1,0 +1,16 @@
+package com.Grocery;
+
+import java.util.Scanner;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		
+	Scanner sc = new Scanner(System.in);
+	Grocery groceryList = new Grocery();
+	
+		
+	}
+
+
+}
