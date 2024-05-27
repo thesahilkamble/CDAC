@@ -1,0 +1,13 @@
+DAC assignments for tomorrow: Lab Assignment:
+
+1. Create a GitHub repository with the name dac-mar-24-<your prn>. Clone it on the local machine. Create a Hello World program Java program in the local repository directory. Push it to GitHub.
+
+2. Create two branches B-1 and B-2. Make changes to the HelloWorld.java file in both the branches. Merge them and finally keep only the main branch. Push the final version to GitHub.
+
+3. Create a Hello World Docker Java image. Push it to DockerHub as version 1.
+
+4. Add two more lines to the Hello World program:
+This is from C-DAC ACTS ...
+We are in DAC ...
+
+Push version 2 of the same Docker image to DockerHub.
