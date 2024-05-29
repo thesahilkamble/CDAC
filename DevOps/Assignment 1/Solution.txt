@@ -1,0 +1,46 @@
+
+
+D:\Github\CDAC\DevOps\Assignment 1>docker build -t home-java .
+2024/05/29 22:42:48 http2: server: error reading preface from client //./pipe/docker_engine: file has already been closed
+[+] Building 2.5s (9/9) FINISHED                                                                                                             docker:default
+ => [internal] load build definition from Dockerfile                                                                                                   0.0s
+ => => transferring dockerfile: 126B                                                                                                                   0.0s
+ => [internal] load metadata for docker.io/library/openjdk:17                                                                                          2.1s
+ => [auth] library/openjdk:pull token for registry-1.docker.io                                                                                         0.0s
+ => [internal] load .dockerignore                                                                                                                      0.0s
+ => => transferring context: 2B                                                                                                                        0.0s
+ => [1/3] FROM docker.io/library/openjdk:17@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8                                    0.0s
+ => [internal] load build context                                                                                                                      0.1s
+ => => transferring context: 36B                                                                                                                       0.0s
+ => CACHED [2/3] WORKDIR /app                                                                                                                          0.0s
+ => CACHED [3/3] COPY helloWorld.java /app/                                                                                                            0.0s
+ => exporting to image                                                                                                                                 0.1s
+ => => exporting layers                                                                                                                                0.0s
+ => => writing image sha256:d5f3f0264d7466f634343697829c195edc8948bab7df928b998e673c869b96a1                                                           0.0s
+ => => naming to docker.io/library/home-java                                                                                                           0.0s
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+D:\Github\CDAC\DevOps\Assignment 1>docker images
+REPOSITORY             TAG       IMAGE ID       CREATED         SIZE
+home-practice-docker   latest    6cfc838be368   4 minutes ago   471MB
+home-java              latest    d5f3f0264d74   4 minutes ago   471MB
+redis                  latest    1a83fd5edeed   6 days ago      117MB
+mongo                  latest    ff65a94ec485   4 weeks ago     795MB
+mongo-express          latest    870141b735e7   2 months ago    182MB
+
+D:\Github\CDAC\DevOps\Assignment 1>docker run home-java
+Hello From Docker
+
+D:\Github\CDAC\DevOps\Assignment 1>docker tag home-java thesahilkamble/home-java
+
+D:\Github\CDAC\DevOps\Assignment 1>docker push thesahilkamble/home-java
+Using default tag: latest
+The push refers to repository [docker.io/thesahilkamble/home-java]
+ef794f411bd0: Pushed
+ec90372c3e5a: Pushed
+dc9fa3d8b576: Mounted from library/openjdk
+27ee19dc88f2: Mounted from library/openjdk
+c8dd97366670: Mounted from library/openjdk
+latest: digest: sha256:64072747930925a3ffc1066425e8dd16412b07d98afab128d4ba7b63dea938df size: 1367
