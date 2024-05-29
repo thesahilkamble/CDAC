@@ -1,0 +1,9 @@
+DAC ... Create a Tomcat container and a MySQL container
+Demonstrate a connection from Tomcat to MySQL
+Note: You will have to install MySQL client in the Tomcat container and try connecting to MySQL server from there
+Create a database, a table, and add 1 row:
+CREATE DATABASE ditiss;
+USE ditiss;
+CREATE TABLE student_tbl (prn integer, name char(30));
+INSERT INTO student_tbl VALUES (1, “My name”);
+SELECT * FROM student_tbl;
