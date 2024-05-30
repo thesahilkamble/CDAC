@@ -1,0 +1,40 @@
+Dear All !
+It has been a long time , since core Java.
+I am not at all trying to scare you but trying to prepare you .
+To be honest the pace of advanced Java n it's difficulty level will be higher.
+Please revise as per the following instructions n we will definitely make the advanced Java module successful.
+
+1. Login to mysql
+2. use database acts_mar24;
+3. drop table users;
+4. Copy from , "prerequisites n revision\voting sql.txt"
+DDL n DMLs for users n candidates tables.
+We are going to use them for online voting case study.
+5. 
+Refer to "prerequisites n revision\JDBC code for revision\jdbc_demo"
+import this as existing project in the core java workspace.
+Edit DBUtils.java ,as per your DB settings
+
+6. Trace completely JDBC layered application
+Layers Tester-DAO (uses DBUtils) -entities -DB
+It's a complete CRUD application.
+Go through it , for complete revision of JDBC
+
+7. From Collection framework , please revise ArrayList n HashMap
+We will use them in advanced java.
+
+8. Refer - "prerequisites n revision\web basics"
+After your completion of WPT module , you may not need any of it . But it's always good to revise !
+
+8.1 "prerequisites n revision\web basics\TCP IP Primer article link.txt"
+8.2 "prerequisites n revision\web basics\HTTP_basics.txt"
+8.3 "prerequisites n revision\web basics\web_server_basics.txt"
+8.4 "prerequisites n revision\web basics\response content type.txt"
+
+9. We are going to start with 
+9.1 Invoking stored procedure with JDBC
+9.2 Java Reflection overview
+If you have gone through , "\prerequisites n revision\Java Reflection\readme.txt" , it will help you greatly.
+
+That's all for now
+Looking forward to seeing you soon !
