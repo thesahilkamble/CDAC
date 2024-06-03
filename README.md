@@ -1,2 +1,2 @@
 # CDAC
-This repository contains my daily log of assignments done at CDAC PG-DAC course.
+This repository contains my daily log of CDAC PG-DAC course.
