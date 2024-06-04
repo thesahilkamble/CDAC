@@ -1,0 +1,21 @@
+1. http://host:port/day3/
+Resp - login form method : 
+
+2. after form submit : POST
+http://host:port/day3/login
+WC --> public service : HttpServlet  --> protected service --> doPost --> for the voter , not yet voted 
+Resp : SC 302 | Location : candidate_list ,Set-Cookie - c1
+Body - empty
+
+3. Web browser auto sends redirect req (for the voter not yet voted)
+URL -- http://host:port/day3/candidate_list,  method=GET
+ doGet --> 
+resp - candidate list (dyn form)
+
+4. Voter selects a candidate
+URL - http://host:port/day3/logout , method=POST
+payload - candidate id
+action - inc candidate votes , update voting status , invalidate session
+resp - logout mesg n visit again link for the admin 
+
+
