@@ -1,5 +1,8 @@
 package dependency;
 
+import org.springframework.stereotype.Component;
+
+@Component("cricket") 
 public class CricketCoach implements Coach {
 
     public CricketCoach() {

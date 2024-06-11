@@ -1,5 +1,8 @@
 package dependency;
 
+import org.springframework.stereotype.Component;
+
+@Component("english")
 public class EnglishTeacher implements Teacher {
 	public EnglishTeacher() {
 		System.out.println("In constructor - " + getClass());

@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h5>
-		Welcome !
+		<a href="hello">Test spring MVC Flow</a>
 	</h5>
 </body>
 </html>
