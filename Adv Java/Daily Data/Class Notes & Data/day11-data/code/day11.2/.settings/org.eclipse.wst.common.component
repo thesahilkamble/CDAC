@@ -4,7 +4,7 @@
     
     
     
-    <wb-module deploy-name="spring_mvc_template">
+    <wb-module deploy-name="day11.2">
                                                 
         
         
@@ -35,9 +35,7 @@
         
         
         <property name="java-output-path" value="/spring_mvc_template/target/classes"/>
-                        
-        
-        <property name="context-root" value="spring_mvc_template"/>
+        <property name="context-root" value="day11.2"/>
                                             
     
     
