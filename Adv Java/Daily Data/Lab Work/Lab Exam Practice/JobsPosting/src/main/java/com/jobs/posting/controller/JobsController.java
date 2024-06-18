@@ -22,13 +22,13 @@ public class JobsController {
 	private Services services;
 
 	@GetMapping
-	private ResponseEntity<?> getAllJobs() {
+	public ResponseEntity<?> getAllJobs() {
 		return ResponseEntity.status(HttpStatus.OK).body(services.getAllJobs());
 
 	}
 
 	@GetMapping("{id}")
-	private ResponseEntity<?> getJobById(@PathVariable Long id) {
+	public ResponseEntity<?> getJobById(@PathVariable Long id) {
 		return ResponseEntity.status(HttpStatus.OK).body(services.getJobById(id));
 	}
 

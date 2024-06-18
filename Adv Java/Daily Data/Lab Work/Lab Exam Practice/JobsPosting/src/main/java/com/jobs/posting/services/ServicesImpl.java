@@ -6,8 +6,8 @@ import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.jobs.posting.entities.JobPosting;
+import com.jobs.posting.exception.JobsException;
 import com.jobs.posting.repository.Repository;
 
 @Service
@@ -27,7 +27,7 @@ public class ServicesImpl implements Services {
 	@Override
 	public JobPosting getJobById(Long id) {
 		
-			return repository.findById(id).orElseThrow();
+			return repository.findById(id).orElseThrow(() -> new JobsException("Job with " + id + " not Found"));
 
 	}
 	
