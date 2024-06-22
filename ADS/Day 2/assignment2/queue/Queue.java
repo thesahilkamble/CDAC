@@ -1,8 +1,12 @@
-package assignment2.queue;
+package queue;
 
-public class Queue {
+public interface Queue<T> {
 
-	private int front;
-	private int rear;
-	
+	public void add(T value) throws Exception;
+	public T remove() throws Exception;
+	public boolean isFull();
+	public boolean isEmpty();
+	public void display();
+	public void peek();
+	public void enlarger();
 }
