@@ -13,7 +13,16 @@ public class TestLinkedList {
 		List.insertAtFirst(140);
 		List.insertAtFirst(150);
 		List.insertAtFirst(160);
+		List.insertAtLast(300);
+		List.insertAtLast(400);
+		List.insertAtLast(500);
+		List.insertAtPos(1, 800);
+		List.insertAtPos(4, 7800);
+		List.insertAtPos(7, 9800);
+		
+		List.display();
 		
 	}
 
 }
+ 

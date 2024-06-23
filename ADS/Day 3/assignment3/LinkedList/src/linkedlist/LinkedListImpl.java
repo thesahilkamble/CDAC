@@ -1,80 +1,103 @@
 package linkedlist;
 
 public class LinkedListImpl<T> implements LinkedList<T> {
-	public Node head = null;
 
-	 static class Node<T> {
-	        T data;
-	        Node next;
-	        
-	        Node(T d) { data = d; next = null; }
-	    }
+	static class Node<T> {
+		T data;
+		Node next;
+
+		Node() {
+		};
+
+		Node(T d) {
+			data = d;
+			next = null;
+		}
+	}
+
+	private Node head;
+
+	public LinkedListImpl() {
+		this.head = null;
+	}
 
 	@Override
 	public void insertAtFirst(T data) {
 		Node temp = new Node(data);
-		
-		if(head == null)
-		{
+
+		if (head == null) {
 			head = temp;
 		}
-		
-		else
-		{
+
+		else {
 			temp.next = head;
-			
-			head =temp;
+
+			head = temp;
 		}
-		
+
 	}
 
 	@Override
-	public void insertAtPos(T pos) {
-		// TODO Auto-generated method stub
-	}
+	public void insertAtPos(int pos, T data) {
+		if (head == null || pos <= 1)
+			insertAtFirst(data);
 
+		else {
+			Node temp = new Node(data);
+			Node abc = head;
+			for (int i = 1; i < pos - 1; i++) 
+		
+				abc = abc.next;
+			
+			temp.next = abc.next;
+			abc.next = temp;
+		}
+	}
+	
 	@Override
 	public void insertAtLast(T data) {
-	Node temp = new Node(data);
-		
-		if(head == null)
-		{
+		Node temp = new Node(data);
+
+		if (head == null) {
 			head = temp;
 		}
-		
-		else
-		{
+
+		else {
 			Node abc = head;
-			while(abc.next != null)
-			{
-				abc = abc.next; 
+			while (abc.next != null) {
+				abc = abc.next;
 			}
-			
+
 			abc.next = temp;
 		}
 	}
 
 	@Override
 	public void remove(int pos) {
-		
-		if(pos == 0)
-		{
+
+		if (pos == 0) {
 			Node temp = head;
 			head = head.next;
 			temp.next = null;
-		}
-		else
-		{
+		} else {
 			Node abc = head;
-			for(int i =0 ; i<pos-1 || abc.next != null ;i++ )
-			{
+			for (int i = 0; i < pos - 1 || abc.next != null; i++) {
 				abc = abc.next;
 			}
-			
+
 			abc.next = abc.next.next;
 		}
-		
+
 	}
 
+	@Override
+	public void display() {
+		Node temp = head;
+		while (temp != null) {
+			System.out.println(temp.data);
+			temp = temp.next;
+		}
+
+	}
 
 }
