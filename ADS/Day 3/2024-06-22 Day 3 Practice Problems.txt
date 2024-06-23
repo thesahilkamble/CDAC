@@ -1,0 +1,75 @@
+[Some links to find problems for practice]
+- JAVA Practice Problems
+https://www.hackerrank.com/domains/java
+
+- DS - Problem Solving
+https://www.hackerrank.com/domains/data-structures
+
+- Algorithms
+https://www.hackerrank.com/domains/algorithms
+
+
+
+[Array Practice Problems]
+- 26. Remove Duplicates from Sorted Array
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+- 27. Remove Element
+https://leetcode.com/problems/remove-element/
+
+- 66. Plus One
+https://leetcode.com/problems/plus-one/
+
+- 118. Pascal's Triangle
+https://leetcode.com/problems/pascals-triangle/
+
+- 217. Contains Duplicate
+https://leetcode.com/problems/contains-duplicate/
+
+- 268. Missing Number
+https://leetcode.com/problems/missing-number/
+
+- 283. Move Zeroes
+https://leetcode.com/problems/move-zeroes/
+
+- 414. Third Maximum Number
+https://leetcode.com/problems/third-maximum-number/
+
+- 485. Max Consecutive Ones
+https://leetcode.com/problems/max-consecutive-ones/
+
+- 674. Longest Continuous Increasing Subsequence
+https://leetcode.com/problems/longest-continuous-increasing-subsequence/
+
+
+
+[Linked List Practice Problems]
+- 203. Remove Linked List Elements
+https://leetcode.com/problems/remove-linked-list-elements/
+
+- 83. Remove Duplicates from Sorted List
+https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+
+- 206. Reverse Linked List
+https://leetcode.com/problems/reverse-linked-list/
+
+- 1290. Convert Binary Number in a Linked List to Integer
+https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+
+- 21. Merge Two Sorted Lists
+https://leetcode.com/problems/merge-two-sorted-lists/
+
+- 141. Linked List Cycle
+https://leetcode.com/problems/linked-list-cycle/
+
+- 160. Intersection of Two Linked Lists
+https://leetcode.com/problems/intersection-of-two-linked-lists/
+
+- 234. Palindrome Linked List
+https://leetcode.com/problems/palindrome-linked-list/
+
+- 876. Middle of the Linked List
+https://leetcode.com/problems/middle-of-the-linked-list/
+
+- 160. Intersection of Two Linked Lists
+https://leetcode.com/problems/intersection-of-two-linked-lists/
