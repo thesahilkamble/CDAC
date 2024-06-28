@@ -1,11 +1,11 @@
-package uinverse.milkyway.earth.asia.india.pune.tree;
+package binarytree;
 
 public class BST {
 	public static void main(String[] args) {
 
 		BinaryTree tree = new BinaryTree();
 
- 		tree.insert(45);
+		tree.insert(45);
 		tree.insert(15);
 		tree.insert(10);
 		tree.insert(12);
@@ -21,7 +21,7 @@ public class BST {
 		tree.preorder();
 		System.out.println("\nPostOrder Tree");
 		tree.postorder();
-		
+
 		System.out.println(" ");
 		System.out.println("Height of tree: " + tree.height());
 	}

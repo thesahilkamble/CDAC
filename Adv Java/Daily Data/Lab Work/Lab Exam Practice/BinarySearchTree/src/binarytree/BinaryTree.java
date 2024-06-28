@@ -1,5 +1,4 @@
-
-package uinverse.milkyway.earth.asia.india.pune.tree;
+package binarytree;
 
 class Node {
 	int data;
