@@ -1,0 +1,38 @@
+Assignment
+1. Implement the following function to find the height of a binary tree.
+int height();
+Can use following link to test the correctness of the algorithm/code.
+https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
+
+2. Implement a function to find smallest element in a binary search tree.
+Find the time complexity of the algorithm.
+int findSmallest();
+
+3. Implement a function to find largest element in a binary search tree.
+Find the time complexity of the algorithm.
+int findLargest();
+
+4. Implement delete in BST using inorder predecessor.
+
+
+Practice problem:
+1. Insert into a Binary Search Tree
+https://leetcode.com/problems/insert-into-a-binary-search-tree/
+
+2. Delete Node in a BST
+https://leetcode.com/problems/delete-node-in-a-bst/
+
+3. Binary Tree Level Order Traversal
+https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+4. Binary Tree Level Order Traversal II
+https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
+
+5. Diameter of Binary Tree
+https://leetcode.com/problems/diameter-of-binary-tree/
+
+6. Convert Sorted Array to Binary Search Tree
+https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+
+7. Convert Sorted List to Binary Search Tree
+https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
