@@ -1,0 +1,24 @@
+Assignment
+1. Implement the following function to find an element in an unsorted array, using linear search.
+boolean findUsingLinearSearch(int[] arr, int element);
+
+2. Implement the following function to find an element in a sorted array, using binary search.
+boolean findUsingBinarySearch(int[] arr, int element);
+Hint: Sort the array using the sorting algorithm implemented below.
+
+3. Implement the following function to sort the given array in descending order, using Bubble Sort
+void bubbleSort(int[] arr);
+Use the algorithm described in class to start from left side of array, to move smallest element towards the right end.
+
+
+Exercise 1: Implement the above algorithms to sort elements in descending order.
+
+Exercise 2: Implement Bubble Sort to start from right end of array, to bring appropriate element towards the left side.
+
+
+[Practice problems that uses Binary Search algorithm as base]
+https://leetcode.com/problems/single-element-in-a-sorted-array/
+https://leetcode.com/problems/search-in-rotated-sorted-array/
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+https://leetcode.com/problems/first-bad-version/

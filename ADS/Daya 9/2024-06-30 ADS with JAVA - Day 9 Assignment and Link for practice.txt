@@ -1,0 +1,27 @@
+Assignment
+1. Implement the following function to sort the given array in descending order, using Insertion Sort
+void insertionSort(int[] arr);
+
+2. Implement the following function to check if given array elements are sorted or not.
+boolean isArraySorted(int[] arr);
+Hint: Use logic used in bubble sort.
+
+3. Implement following function to sort the given array in descending order, using merge sort
+public void mergeSort(int[] arr)
+
+4. Implement following function to sort the given array in descending order, using quick sort
+public void quickSort(int[] arr)
+
+
+Exercise 1: Implement the algorithm to merge two sorted arrays. Use the following link to test your code.
+https://leetcode.com/problems/merge-sorted-array
+
+Exercise 2: Implement the algorithm to merge two sorted linked lists. Use the following link to test your code.
+https://leetcode.com/problems/merge-two-sorted-lists
+
+Exercise 3: Implement Merge Sort using multi threading.
+
+Exercise 4: Merge k Sorted Lists
+https://leetcode.com/problems/merge-k-sorted-lists
+
+Exercise 5: Implement Merge Sort using multi threading.
