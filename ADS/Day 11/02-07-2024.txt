@@ -1,0 +1,4 @@
+Today’s assignment: 02-07-2024
+
+Implement hash table using chaining using linked list.
+Support resizing of hash table.
