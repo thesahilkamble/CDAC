@@ -1,0 +1,14 @@
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\bin\Debug\net8.0\HidingOverridingAndOverloading.exe
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\bin\Debug\net8.0\HidingOverridingAndOverloading.deps.json
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\bin\Debug\net8.0\HidingOverridingAndOverloading.runtimeconfig.json
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\bin\Debug\net8.0\HidingOverridingAndOverloading.dll
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\bin\Debug\net8.0\HidingOverridingAndOverloading.pdb
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\obj\Debug\net8.0\HidingOverridingAndOverloading.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\obj\Debug\net8.0\HidingOverridingAndOverloading.AssemblyInfoInputs.cache
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\obj\Debug\net8.0\HidingOverridingAndOverloading.AssemblyInfo.cs
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\obj\Debug\net8.0\HidingOverridingAndOverloading.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\obj\Debug\net8.0\HidingOverridingAndOverloading.dll
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\obj\Debug\net8.0\refint\HidingOverridingAndOverloading.dll
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\obj\Debug\net8.0\HidingOverridingAndOverloading.pdb
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\obj\Debug\net8.0\HidingOverridingAndOverloading.genruntimeconfig.cache
+D:\Trainings\ActsJuly2024\Day1\HidingOverridingAndOverloading\obj\Debug\net8.0\ref\HidingOverridingAndOverloading.dll
