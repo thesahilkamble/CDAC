@@ -1,15 +1,14 @@
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\bin\Debug\net8.0\Day 1.exe
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\bin\Debug\net8.0\Day 1.deps.json
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\bin\Debug\net8.0\Day 1.runtimeconfig.json
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\bin\Debug\net8.0\Day 1.dll
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\bin\Debug\net8.0\Day 1.pdb
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.GeneratedMSBuildEditorConfig.editorconfig
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.AssemblyInfoInputs.cache
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.AssemblyInfo.cs
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.csproj.CoreCompileInputs.cache
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.sourcelink.json
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.dll
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\obj\Debug\net8.0\refint\Day 1.dll
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.pdb
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.genruntimeconfig.cache
-D:\Github\CDAC\Ms.Net\Day 1\HelloWorld\Day 1\obj\Debug\net8.0\ref\Day 1.dll
+C:\Users\dac\source\repos\HelloWorld\Day 1\bin\Debug\net8.0\Day 1.exe
+C:\Users\dac\source\repos\HelloWorld\Day 1\bin\Debug\net8.0\Day 1.deps.json
+C:\Users\dac\source\repos\HelloWorld\Day 1\bin\Debug\net8.0\Day 1.runtimeconfig.json
+C:\Users\dac\source\repos\HelloWorld\Day 1\bin\Debug\net8.0\Day 1.dll
+C:\Users\dac\source\repos\HelloWorld\Day 1\bin\Debug\net8.0\Day 1.pdb
+C:\Users\dac\source\repos\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dac\source\repos\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.AssemblyInfoInputs.cache
+C:\Users\dac\source\repos\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.AssemblyInfo.cs
+C:\Users\dac\source\repos\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.csproj.CoreCompileInputs.cache
+C:\Users\dac\source\repos\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.dll
+C:\Users\dac\source\repos\HelloWorld\Day 1\obj\Debug\net8.0\refint\Day 1.dll
+C:\Users\dac\source\repos\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.pdb
+C:\Users\dac\source\repos\HelloWorld\Day 1\obj\Debug\net8.0\Day 1.genruntimeconfig.cache
+C:\Users\dac\source\repos\HelloWorld\Day 1\obj\Debug\net8.0\ref\Day 1.dll

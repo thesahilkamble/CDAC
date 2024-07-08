@@ -1,12 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\CDAC\\Ms.Net\\Day 1\\HelloWorld\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F6A487-765E-4A32-AE5B-45F1E1BC6059}|Day 1\\Day 1.csproj|d:\\github\\cdac\\ms.net\\day 1\\helloworld\\day 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F6A487-765E-4A32-AE5B-45F1E1BC6059}|Day 1\\Day 1.csproj|solutionrelative:day 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\dac\\source\\repos\\HelloWorld\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,20 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\CDAC\\Ms.Net\\Day 1\\HelloWorld\\Day 1\\Program.cs",
-              "RelativeDocumentMoniker": "Day 1\\Program.cs",
-              "ToolTip": "D:\\Github\\CDAC\\Ms.Net\\Day 1\\HelloWorld\\Day 1\\Program.cs",
-              "RelativeToolTip": "Day 1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T16:19:57.962Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

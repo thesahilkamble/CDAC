@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sahil\\.nuget\\packages\\": {}
+    "C:\\Users\\dac\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\CDAC\\Ms.Net\\Day 1\\HelloWorld\\Day 1\\Day 1.csproj",
+      "projectUniqueName": "C:\\Users\\dac\\source\\repos\\HelloWorld\\Day 1\\Day 1.csproj",
       "projectName": "Day 1",
-      "projectPath": "D:\\Github\\CDAC\\Ms.Net\\Day 1\\HelloWorld\\Day 1\\Day 1.csproj",
-      "packagesPath": "C:\\Users\\sahil\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\CDAC\\Ms.Net\\Day 1\\HelloWorld\\Day 1\\obj\\",
+      "projectPath": "C:\\Users\\dac\\source\\repos\\HelloWorld\\Day 1\\Day 1.csproj",
+      "packagesPath": "C:\\Users\\dac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dac\\source\\repos\\HelloWorld\\Day 1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sahil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

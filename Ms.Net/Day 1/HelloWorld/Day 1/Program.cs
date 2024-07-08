@@ -1,37 +1,43 @@
-﻿namespace Day_1
+﻿
+// using System;
+// global using System;
+
+using System.ComponentModel;
+using System.Runtime.InteropServices;
+
+namespace Day_1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            class1 o = new class1();
-
-            // Positional Params
-
-            Console.WriteLine(o.add(2, 5));
-
-            Console.WriteLine(o.add(5));
-
-            // Named Params
-            Console.WriteLine(o.add(a: 10, b: 5));
-
-            Console.WriteLine(o.add(b: 5));
-
-
-
-            //Console.WriteLine("Hello, World!");
+            
         }
+
+
+            public string AddBinary(string a, string b)
+            {
+
+                return Convert.ToString((Convert.ToUInt64(a, 2) + Convert.ToUInt64(b, 2)), 2);
+
+
+
+
+            }
     }
 
-    public class class1
-    {
 
-        private int a;
-        private int b;
-
-        public int add(int a = 0, int b = 0, int c = 0)
-        {
-            return a + b;
-        }
     }
+
+    //public class Class1
+    //{
+    //    public int add(int a, int b)
+    //    {
+    //           return Int32.Parse("" +a + b) ;
+
+             
+    //    }
+    //}
+   
 }
+
