@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employee_3
 {
-    internal class CEO : Employee
+    internal class GeneralManager : Manager
     {
         private decimal _basic;
         public override decimal Basic
@@ -18,30 +18,30 @@ namespace Employee_3
 
             set
             {
-                if (value > 100000 && value < 150000) // 1 lakh to 1.5 lakh ceo
+                if (value > 60000 && value < 100000) // 60k to 1 lakh GManger
                     _basic = value;
 
                 else
                 {
-                    Console.WriteLine("CEO salary should be between 1 lakh to 1.5 lakh");
+                    Console.WriteLine("General Manger salary should be between 60k to 1 lakh");
                 }
             }
         }
 
+        private string? _perks;
 
-        public override decimal GetNetSalary()
-        {
-            throw new NotImplementedException();
-        }
+        public string? Perks { get; set; }
+
+
         public override decimal CalcNetSalary()
         {
-            return Basic * 1.5m;
-
+            return Basic * 1.2m;
         }
-        internal CEO() { }
-        internal CEO(string name, short deptno, decimal basic) : base(name, deptno)
+        
+        internal GeneralManager() { }
+        internal GeneralManager(string name, short deptno, decimal basic, string designation, string perks) : base(name, deptno, basic, designation)
         {
-            this.Basic = basic;
+            this.Perks = _perks;
         }
     }
 }
