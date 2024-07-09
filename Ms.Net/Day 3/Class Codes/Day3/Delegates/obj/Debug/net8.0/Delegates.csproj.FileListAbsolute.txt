@@ -1,0 +1,14 @@
+D:\Trainings\ActsJuly2024\Day3\Delegates\bin\Debug\net8.0\Delegates.exe
+D:\Trainings\ActsJuly2024\Day3\Delegates\bin\Debug\net8.0\Delegates.deps.json
+D:\Trainings\ActsJuly2024\Day3\Delegates\bin\Debug\net8.0\Delegates.runtimeconfig.json
+D:\Trainings\ActsJuly2024\Day3\Delegates\bin\Debug\net8.0\Delegates.dll
+D:\Trainings\ActsJuly2024\Day3\Delegates\bin\Debug\net8.0\Delegates.pdb
+D:\Trainings\ActsJuly2024\Day3\Delegates\obj\Debug\net8.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsJuly2024\Day3\Delegates\obj\Debug\net8.0\Delegates.AssemblyInfoInputs.cache
+D:\Trainings\ActsJuly2024\Day3\Delegates\obj\Debug\net8.0\Delegates.AssemblyInfo.cs
+D:\Trainings\ActsJuly2024\Day3\Delegates\obj\Debug\net8.0\Delegates.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsJuly2024\Day3\Delegates\obj\Debug\net8.0\Delegates.dll
+D:\Trainings\ActsJuly2024\Day3\Delegates\obj\Debug\net8.0\refint\Delegates.dll
+D:\Trainings\ActsJuly2024\Day3\Delegates\obj\Debug\net8.0\Delegates.pdb
+D:\Trainings\ActsJuly2024\Day3\Delegates\obj\Debug\net8.0\Delegates.genruntimeconfig.cache
+D:\Trainings\ActsJuly2024\Day3\Delegates\obj\Debug\net8.0\ref\Delegates.dll

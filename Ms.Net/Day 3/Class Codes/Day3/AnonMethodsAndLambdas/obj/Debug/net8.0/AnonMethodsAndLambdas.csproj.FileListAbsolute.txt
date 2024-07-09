@@ -1,0 +1,14 @@
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\bin\Debug\net8.0\AnonMethodsAndLambdas.exe
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\bin\Debug\net8.0\AnonMethodsAndLambdas.deps.json
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\bin\Debug\net8.0\AnonMethodsAndLambdas.runtimeconfig.json
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\bin\Debug\net8.0\AnonMethodsAndLambdas.dll
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\bin\Debug\net8.0\AnonMethodsAndLambdas.pdb
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\obj\Debug\net8.0\AnonMethodsAndLambdas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\obj\Debug\net8.0\AnonMethodsAndLambdas.AssemblyInfoInputs.cache
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\obj\Debug\net8.0\AnonMethodsAndLambdas.AssemblyInfo.cs
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\obj\Debug\net8.0\AnonMethodsAndLambdas.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\obj\Debug\net8.0\AnonMethodsAndLambdas.dll
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\obj\Debug\net8.0\refint\AnonMethodsAndLambdas.dll
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\obj\Debug\net8.0\AnonMethodsAndLambdas.pdb
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\obj\Debug\net8.0\AnonMethodsAndLambdas.genruntimeconfig.cache
+D:\Trainings\ActsJuly2024\Day3\AnonMethodsAndLambdas\obj\Debug\net8.0\ref\AnonMethodsAndLambdas.dll

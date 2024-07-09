@@ -1,0 +1,14 @@
+D:\Trainings\ActsJuly2024\Day2\Arrays\bin\Debug\net8.0\Arrays.exe
+D:\Trainings\ActsJuly2024\Day2\Arrays\bin\Debug\net8.0\Arrays.deps.json
+D:\Trainings\ActsJuly2024\Day2\Arrays\bin\Debug\net8.0\Arrays.runtimeconfig.json
+D:\Trainings\ActsJuly2024\Day2\Arrays\bin\Debug\net8.0\Arrays.dll
+D:\Trainings\ActsJuly2024\Day2\Arrays\bin\Debug\net8.0\Arrays.pdb
+D:\Trainings\ActsJuly2024\Day2\Arrays\obj\Debug\net8.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsJuly2024\Day2\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfoInputs.cache
+D:\Trainings\ActsJuly2024\Day2\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfo.cs
+D:\Trainings\ActsJuly2024\Day2\Arrays\obj\Debug\net8.0\Arrays.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsJuly2024\Day2\Arrays\obj\Debug\net8.0\Arrays.dll
+D:\Trainings\ActsJuly2024\Day2\Arrays\obj\Debug\net8.0\refint\Arrays.dll
+D:\Trainings\ActsJuly2024\Day2\Arrays\obj\Debug\net8.0\Arrays.pdb
+D:\Trainings\ActsJuly2024\Day2\Arrays\obj\Debug\net8.0\Arrays.genruntimeconfig.cache
+D:\Trainings\ActsJuly2024\Day2\Arrays\obj\Debug\net8.0\ref\Arrays.dll
