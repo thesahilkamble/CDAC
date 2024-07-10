@@ -1,0 +1,14 @@
+D:\Trainings\ActsJuly2024\Day4\LINQExample\bin\Debug\net8.0\LINQExample.exe
+D:\Trainings\ActsJuly2024\Day4\LINQExample\bin\Debug\net8.0\LINQExample.deps.json
+D:\Trainings\ActsJuly2024\Day4\LINQExample\bin\Debug\net8.0\LINQExample.runtimeconfig.json
+D:\Trainings\ActsJuly2024\Day4\LINQExample\bin\Debug\net8.0\LINQExample.dll
+D:\Trainings\ActsJuly2024\Day4\LINQExample\bin\Debug\net8.0\LINQExample.pdb
+D:\Trainings\ActsJuly2024\Day4\LINQExample\obj\Debug\net8.0\LINQExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsJuly2024\Day4\LINQExample\obj\Debug\net8.0\LINQExample.AssemblyInfoInputs.cache
+D:\Trainings\ActsJuly2024\Day4\LINQExample\obj\Debug\net8.0\LINQExample.AssemblyInfo.cs
+D:\Trainings\ActsJuly2024\Day4\LINQExample\obj\Debug\net8.0\LINQExample.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsJuly2024\Day4\LINQExample\obj\Debug\net8.0\LINQExample.dll
+D:\Trainings\ActsJuly2024\Day4\LINQExample\obj\Debug\net8.0\refint\LINQExample.dll
+D:\Trainings\ActsJuly2024\Day4\LINQExample\obj\Debug\net8.0\LINQExample.pdb
+D:\Trainings\ActsJuly2024\Day4\LINQExample\obj\Debug\net8.0\LINQExample.genruntimeconfig.cache
+D:\Trainings\ActsJuly2024\Day4\LINQExample\obj\Debug\net8.0\ref\LINQExample.dll

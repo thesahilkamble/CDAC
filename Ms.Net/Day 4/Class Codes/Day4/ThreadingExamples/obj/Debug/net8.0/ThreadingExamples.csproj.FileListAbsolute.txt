@@ -1,0 +1,14 @@
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\bin\Debug\net8.0\ThreadingExamples.exe
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\bin\Debug\net8.0\ThreadingExamples.deps.json
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\bin\Debug\net8.0\ThreadingExamples.runtimeconfig.json
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\bin\Debug\net8.0\ThreadingExamples.dll
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\bin\Debug\net8.0\ThreadingExamples.pdb
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\obj\Debug\net8.0\ThreadingExamples.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\obj\Debug\net8.0\ThreadingExamples.AssemblyInfoInputs.cache
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\obj\Debug\net8.0\ThreadingExamples.AssemblyInfo.cs
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\obj\Debug\net8.0\ThreadingExamples.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\obj\Debug\net8.0\ThreadingExamples.dll
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\obj\Debug\net8.0\refint\ThreadingExamples.dll
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\obj\Debug\net8.0\ThreadingExamples.pdb
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\obj\Debug\net8.0\ThreadingExamples.genruntimeconfig.cache
+D:\Trainings\ActsJuly2024\Day4\ThreadingExamples\obj\Debug\net8.0\ref\ThreadingExamples.dll
