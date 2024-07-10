@@ -1,0 +1,14 @@
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\bin\Debug\net8.0\Array_Employee.exe
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\bin\Debug\net8.0\Array_Employee.deps.json
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\bin\Debug\net8.0\Array_Employee.runtimeconfig.json
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\bin\Debug\net8.0\Array_Employee.dll
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\bin\Debug\net8.0\Array_Employee.pdb
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\obj\Debug\net8.0\Array_Employee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\obj\Debug\net8.0\Array_Employee.AssemblyInfoInputs.cache
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\obj\Debug\net8.0\Array_Employee.AssemblyInfo.cs
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\obj\Debug\net8.0\Array_Employee.csproj.CoreCompileInputs.cache
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\obj\Debug\net8.0\Array_Employee.dll
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\obj\Debug\net8.0\refint\Array_Employee.dll
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\obj\Debug\net8.0\Array_Employee.pdb
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\obj\Debug\net8.0\Array_Employee.genruntimeconfig.cache
+C:\Users\dac\source\repos\Array_Employee\Array_Employee\obj\Debug\net8.0\ref\Array_Employee.dll
