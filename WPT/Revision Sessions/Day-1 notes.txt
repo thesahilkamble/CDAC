@@ -1,0 +1,44 @@
+http://localhost:3000/
+http://localhost:3000/admin
+http://localhost:3000/Foo
+
+http://localhost:3000/user
+
+http://localhost:3000/search?cat=java
+
+http://localhost:3000/search?cat=web
+
+http://localhost:3000/search/102
+
+http://localhost:3000/search/103
+
+GET : req.query
+	req.params
+POST : req.body
+
+app.get("/search/:bookid", (req, res)=>{})
+
+req.query.cat  --> java
+
+
+MERN
+
+
+shrilatat
+
+
+Connect to MongoDB:
+- Directly use MongoDB drivers for Local DB
+- Mongo Atlas Mongoose
+- Local Mongo DB + Mongoose
+
+ORM - Hibernate
+ODM - Mongoose
+
+
+Components:
+- Class-based 
+- functional
+
+
+
