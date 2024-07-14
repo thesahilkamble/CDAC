@@ -1,0 +1,17 @@
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\bin\Debug\net8.0\SerializaztionWithCore.exe
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\bin\Debug\net8.0\SerializaztionWithCore.deps.json
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\bin\Debug\net8.0\SerializaztionWithCore.runtimeconfig.json
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\bin\Debug\net8.0\SerializaztionWithCore.dll
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\bin\Debug\net8.0\SerializaztionWithCore.pdb
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\obj\Debug\net8.0\SerializaztionWithCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\obj\Debug\net8.0\SerializaztionWithCore.AssemblyInfoInputs.cache
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\obj\Debug\net8.0\SerializaztionWithCore.AssemblyInfo.cs
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\obj\Debug\net8.0\SerializaztionWithCore.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\obj\Debug\net8.0\SerializaztionWithCore.dll
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\obj\Debug\net8.0\refint\SerializaztionWithCore.dll
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\obj\Debug\net8.0\SerializaztionWithCore.pdb
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\obj\Debug\net8.0\SerializaztionWithCore.genruntimeconfig.cache
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\obj\Debug\net8.0\ref\SerializaztionWithCore.dll
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\obj\Debug\net8.0\SerializaztionWithCore.csproj.AssemblyReference.cache
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\bin\Debug\net8.0\SoapFormatter.dll
+D:\Trainings\ActsJuly2024\Day6\SerializaztionWithCore\obj\Debug\net8.0\Serializ.3D2FA86B.Up2Date

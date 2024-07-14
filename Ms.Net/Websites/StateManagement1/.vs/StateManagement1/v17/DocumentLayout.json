@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vikra\\Desktop\\YCPJune2024\\mvc2\\StateManagement1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F15B931F-5386-4BDB-9F83-1F997AB3ECB6}|StateManagement1.csproj|c:\\users\\vikra\\desktop\\ycpjune2024\\mvc2\\statemanagement1\\views\\default\\session2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F15B931F-5386-4BDB-9F83-1F997AB3ECB6}|StateManagement1.csproj|solutionrelative:views\\default\\session2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F15B931F-5386-4BDB-9F83-1F997AB3ECB6}|StateManagement1.csproj|c:\\users\\vikra\\desktop\\ycpjune2024\\mvc2\\statemanagement1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F15B931F-5386-4BDB-9F83-1F997AB3ECB6}|StateManagement1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F15B931F-5386-4BDB-9F83-1F997AB3ECB6}|StateManagement1.csproj|c:\\users\\vikra\\desktop\\ycpjune2024\\mvc2\\statemanagement1\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F15B931F-5386-4BDB-9F83-1F997AB3ECB6}|StateManagement1.csproj|solutionrelative:controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Session2.cshtml",
+              "DocumentMoniker": "C:\\Users\\vikra\\Desktop\\YCPJune2024\\mvc2\\StateManagement1\\Views\\Default\\Session2.cshtml",
+              "RelativeDocumentMoniker": "Views\\Default\\Session2.cshtml",
+              "ToolTip": "C:\\Users\\vikra\\Desktop\\YCPJune2024\\mvc2\\StateManagement1\\Views\\Default\\Session2.cshtml",
+              "RelativeToolTip": "Views\\Default\\Session2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T07:49:22.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vikra\\Desktop\\YCPJune2024\\mvc2\\StateManagement1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vikra\\Desktop\\YCPJune2024\\mvc2\\StateManagement1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAIwBwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T12:24:01.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\vikra\\Desktop\\YCPJune2024\\mvc2\\StateManagement1\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\vikra\\Desktop\\YCPJune2024\\mvc2\\StateManagement1\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "Controllers\\DefaultController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAIA2wDUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:08:07.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

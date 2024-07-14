@@ -1,0 +1,25 @@
+CREATE TABLE [dbo].Departments
+(
+	[DeptNo] INT NOT NULL PRIMARY KEY, 
+    [DeptName] VARCHAR(50) NOT NULL
+)
+
+CREATE TABLE [dbo].Employees
+(
+	[EmpNo] INT NOT NULL PRIMARY KEY, 
+    [Name] VARCHAR(50) NOT NULL, 
+    [Basic] DECIMAL(18, 2) NOT NULL, 
+    [DeptNo] INT NOT NULL, 
+    CONSTRAINT [FK_Employees_Departments] 
+	FOREIGN KEY (DeptNo) REFERENCES Departments(DeptNo)
+)
+
+
+CREATE PROCEDURE [dbo].InsertEmployee
+	@EmpNo int ,
+	@Name varchar(50),
+	@Basic decimal(18,2),
+	@DeptNo int
+AS
+	insert into Employees values(@EmpNo, @Name, @Basic,@DeptNo)
+RETURN 0
