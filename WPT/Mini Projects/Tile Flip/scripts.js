@@ -39,6 +39,7 @@ function flipCard() {
 }
 
 function disableCards() {
+    // firstcasrd active lsitner wevet
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
 
