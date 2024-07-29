@@ -1,0 +1,11 @@
+CREATE TABLE [dbo].[Emp]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Name] VARCHAR(50) NOT NULL, 
+    [City] VARCHAR(50) NOT NULL, 
+    [Address] VARCHAR(300) NOT NULL
+)
+
+
+INSERT INTO Employee (Id, Name, City, Address)
+VALUES (1, Vithal Wadje, Latur, Kabansangvi)
