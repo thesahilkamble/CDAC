@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\prac2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24CFAE53-2667-40C7-8DE8-9D9EE1A72E9A}|prac2\\prac2.csproj|c:\\users\\hp\\source\\repos\\prac2\\prac2\\controllers\\votingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24CFAE53-2667-40C7-8DE8-9D9EE1A72E9A}|prac2\\prac2.csproj|solutionrelative:prac2\\controllers\\votingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24CFAE53-2667-40C7-8DE8-9D9EE1A72E9A}|prac2\\prac2.csproj|c:\\users\\hp\\source\\repos\\prac2\\prac2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24CFAE53-2667-40C7-8DE8-9D9EE1A72E9A}|prac2\\prac2.csproj|solutionrelative:prac2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24CFAE53-2667-40C7-8DE8-9D9EE1A72E9A}|prac2\\prac2.csproj|c:\\users\\hp\\source\\repos\\prac2\\prac2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{24CFAE53-2667-40C7-8DE8-9D9EE1A72E9A}|prac2\\prac2.csproj|solutionrelative:prac2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24CFAE53-2667-40C7-8DE8-9D9EE1A72E9A}|prac2\\prac2.csproj|c:\\users\\hp\\source\\repos\\prac2\\prac2\\prac2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24CFAE53-2667-40C7-8DE8-9D9EE1A72E9A}|prac2\\prac2.csproj|solutionrelative:prac2\\prac2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VotingsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\prac2\\prac2\\Controllers\\VotingsController.cs",
+              "RelativeDocumentMoniker": "prac2\\Controllers\\VotingsController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\prac2\\prac2\\Controllers\\VotingsController.cs",
+              "RelativeToolTip": "prac2\\Controllers\\VotingsController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA0wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T04:14:07.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "prac2",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\prac2\\prac2\\prac2.csproj",
+              "RelativeDocumentMoniker": "prac2\\prac2.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\prac2\\prac2\\prac2.csproj",
+              "RelativeToolTip": "prac2\\prac2.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-29T04:09:11.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\prac2\\prac2\\appsettings.json",
+              "RelativeDocumentMoniker": "prac2\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\prac2\\prac2\\appsettings.json",
+              "RelativeToolTip": "prac2\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-29T04:13:06.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\prac2\\prac2\\Program.cs",
+              "RelativeDocumentMoniker": "prac2\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\prac2\\prac2\\Program.cs",
+              "RelativeToolTip": "prac2\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T04:09:14.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
