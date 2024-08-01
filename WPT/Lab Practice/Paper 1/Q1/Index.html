@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Details</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .form-container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2 class="text-center">Account Details</h2>
+            <form id="accountForm">
+                <div class="form-group">
+                    <label for="accountId">Account Id:</label>
+                    <input type="text" class="form-control" id="accountId" required>
+                </div>
+                <div class="form-group">
+                    <label for="accountName">Account Name:</label>
+                    <input type="text" class="form-control" id="accountName" required>
+                </div>
+                <div class="form-group">
+                    <label for="accountType">Account Type:</label>
+                    <select class="form-control" id="accountType" required>
+                        <option value="Savings">Savings</option>
+                        <option value="Current">Current</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="balance">Balance:</label>
+                    <input type="number" class="form-control" id="balance" required>
+                </div>
+                <div class="form-group">
+                    <label for="creationDate">Creation Date:</label>
+                    <input type="date" class="form-control" id="creationDate" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Save info</button>
+                <button type="button" class="btn btn-info" id="showInfo">Account Info</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
