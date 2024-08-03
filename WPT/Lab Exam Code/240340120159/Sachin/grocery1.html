@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery by Category</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .image-gallery {
+            display: none; 
+            margin-top: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .dropdown {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery by Category</h1>
+        <div class="dropdown">
+            <label for="categoryDropdown">Select Category:</label>
+            <select id="categoryDropdown" class="form-control">
+                <option value="">--Select Category--</option>
+                <option value="groceries">Groceries</option>
+                <option value="beverages">Beverages</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div id="groceries" class="image-gallery">
+            <h3>Groceries</h3>
+            <img src="Rice.jpg" alt="Rice">
+            <img src="Dal.jpg" alt="Dal">
+        </div>
+
+        <div id="beverages" class="image-gallery">
+            <h3>Beverages</h3>
+            <img src="Water.jpg" alt="Water">
+            <img src="Tea.jpg" alt="Tea">
+            <img src="Coffee.jfif" alt="Coffee">
+        </div>
+
+        <div id="other" class="image-gallery">
+            <h3>Other</h3>
+            <img src="Lays.jfif" alt="Lays">
+            <img src="Pizza.jfif" alt="Pizza">
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#categoryDropdown').change(function() {
+                var selectedCategory = $(this).val();
+
+                $('.image-gallery').hide();
+
+                if (selectedCategory) {
+                    $('#' + selectedCategory).show();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Categories</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      .image-container {
+        display: none;
+      }
+      .image-container img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+        display: block;
+        margin: 10px auto;
+      }
+      .image-container .caption {
+        text-align: center;
+        margin: 5px 0;
+        font-size: 0.9em;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-4">Select a Category to View Images</h1>
+      <div class="form-group">
+        <label for="categorySelect">Category</label>
+        <select class="form-control" id="categorySelect">
+          <option value="">Select Category</option>
+          <option value="groceries">Groceries</option>
+          <option value="beverages">Beverages</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div id="groceries" class="image-container">
+        <h3>Groceries</h3>
+        <div>
+          <img src="Images/Rice.avif" alt="Rice" />
+          <div class="caption">Rice</div>
+        </div>
+        <div>
+          <img src="Images/Dal.webp" alt="Dal" />
+          <div class="caption">Dal</div>
+        </div>
+      </div>
+      <div id="beverages" class="image-container">
+        <h3>Beverages</h3>
+        <div>
+          <img src="Images/Water.jpeg" alt="Water" />
+          <div class="caption">Water</div>
+        </div>
+        <div>
+          <img src="Images/Tea.jpeg" alt="Tea" />
+          <div class="caption">Tea</div>
+        </div>
+        <div>
+          <img src="Images/Coffee.jpg" alt="Coffee" />
+          <div class="caption">Coffee</div>
+        </div>
+      </div>
+      <div id="other" class="image-container">
+        <h3>Other</h3>
+        <div>
+          <img src="Images/Lays.webp" alt="Lays" />
+          <div class="caption">Lays</div>
+        </div>
+        <div>
+          <img src="Images/Pizza.webp" alt="Pizza" />
+          <div class="caption">Pizza</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $("#categorySelect").on("change", function () {
+          $(".image-container").hide();
+          var selectedCategory = $(this).val();
+          if (selectedCategory) {
+            $("#" + selectedCategory).show();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

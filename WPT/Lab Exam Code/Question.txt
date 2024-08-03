@@ -1,0 +1,25 @@
+1) Create a page to show multiple images from multiple categories using html,jQuery and Bootstrap
+
+a) Create a dropdown with category names and show the images from that category.
+In a dropdown, categories will be groceries, Bevrages and other.
+initially, no images must be seen.
+
+b) If "Groceries" is selected, show the grocery images like rice and dal.
+
+C)  If "Bevrages" is selected, show the Bevrages images like water tea and coffee.
+
+D) If "Other" is selected, show images like Lays, Pizza.
+
+
+2) Create a html form for the following:
+
+a) Taking input Productid, ProductName, Price, UnitOfMeasurment of a Product using react
+
+b) UnitOfMeasurment can only be dozen or per piece or Kg
+
+c) Price must be greater than 0(Zero), ProductID cannot be blank, ProductName must be minimum of 4 chars  
+
+d) If all fileds are valid then only the submit button must be activated.
+
+
+
