@@ -1,0 +1,3 @@
+class ElementNotFoundException extends Exception {
+    
+}

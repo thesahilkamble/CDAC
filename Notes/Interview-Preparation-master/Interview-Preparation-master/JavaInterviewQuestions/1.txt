@@ -1,0 +1,29 @@
+1. What is serialization?
+
+2. Transient word in java?
+
+3. What do start() method do in multithreading?
+
+4. What do Synchronized word in java?
+
+5. In how many ways we can do multithreading in java? Which way is preferable?
+
+6. In which class .equals() and .hashcode() method present. What did they do?
+
+7. Override .equals() method?
+
+8. What are StringBuilder and StringBuffer?
+
+9. What is JDBC in java?
+
+10.What is difference bw final, finally, and finalize
+
+11. How many types of exceptions are there in java?
+
+12. Which type of exceptions we must declare?
+
+13. How do you sort arrayList of objects?
+
+14. Explain Association & Aggregation with example?
+
+15.  What is Run Time Polmorphism?

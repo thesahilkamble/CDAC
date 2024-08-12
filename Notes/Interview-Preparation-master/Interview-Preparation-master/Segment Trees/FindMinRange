@@ -1,0 +1,95 @@
+import java.util.Scanner;
+
+/** Range Minimum Query
+ *Given an array A of size N, there are two types of queries on this array.
+ *1) qlr: In this query you need to print the minimum in the sub-array A[l:r].
+ *2) uxy: In this query you need to update A[x]=y.
+ 
+ INPUT:
+ 	First line of the test case contains two integers, N and Q, size of array A and number of queries.
+	Second line contains N space separated integers, elements of A.
+	Next Q lines contain one of the two queries.
+ 
+ **/
+
+public class Main {
+  
+    public static void buildTree(int[] arr, int[] tree, int start, int end, int nodeIndex){
+      
+      if(start == end){
+        tree[nodeIndex] = arr[start];
+        return;
+      }
+      
+      int mid = (start + end)/2;
+      buildTree(arr, tree, start, mid, 2*nodeIndex);
+      buildTree(arr, tree, mid+1, end, 2*nodeIndex + 1);
+      
+      tree[nodeIndex] = Math.min(tree[2*nodeIndex], tree[2*nodeIndex + 1]);
+    }
+  
+    public static void updateTree(int[] arr, int[] tree, int start, int end, int nodeIndex, int index, int value){
+      
+      if(start == end){
+        arr[index] = value;
+        tree[nodeIndex] = value;
+        return;
+      }
+      
+      int mid = (start + end) / 2;
+      if(mid < index){
+        updateTree(arr, tree, mid + 1, end, 2*nodeIndex + 1, index, value);
+      }
+      else{
+        updateTree(arr, tree, start, mid, 2*nodeIndex, index, value);
+      }
+      
+      tree[nodeIndex] = Math.min(tree[2*nodeIndex], tree[2*nodeIndex + 1]);
+    }
+    
+    public static int query(int[] tree, int start, int end, int nodeIndex, int left, int right){
+      
+      if(left > end || right < start){
+        return Integer.MAX_VALUE;
+      }
+      
+      if(start >= left && end <= right){
+        return tree[nodeIndex];
+      }
+      
+      int mid = (start + end) / 2;
+      
+      int ans1 = query(tree, start, mid, 2*nodeIndex, left, right);
+      int ans2 = query(tree, mid + 1, end, 2*nodeIndex  + 1, left, right);
+      
+      return Math.min(ans1, ans2);
+    }
+
+	public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int n = sc.nextInt();
+      int q = sc.nextInt();
+      
+      int[] arr = new int[n];
+      for(int i = 0; i<n; i++){
+        arr[i] = sc.nextInt();
+      }
+      
+      int[] tree = new int[4*n];
+      buildTree(arr, tree, 0, n-1, 1);
+      
+      
+      while(q-- > 0){
+        String s = sc.next();
+        int left = sc.nextInt();
+        int right = sc.nextInt();
+        
+        if(s.equals("q")){
+           System.out.println(query(tree, 0, n-1, 1, left - 1, right - 1 ));
+        }
+        else{
+          updateTree(arr, tree, 0, n-1, 1, left-1, right);
+        } 
+      }
+	}
+}
