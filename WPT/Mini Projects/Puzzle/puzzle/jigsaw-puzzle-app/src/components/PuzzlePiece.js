@@ -1,37 +1,41 @@
 import React from 'react';
-import { useDrag, useDrop } from 'react-dnd';
+import '../pages/PuzzlePage.css';
 
 const PuzzlePiece = ({ id, piece, onDropPiece }) => {
-  const [{ isDragging }, drag] = useDrag({
-    type: 'PIECE',
-    item: { id },
-    collect: (monitor) => ({
-      isDragging: !!monitor.isDragging(),
-    }),
-  });
+  const handleDragStart = (e) => {
+    e.dataTransfer.setData('text/plain', id);
+  };
 
-  const [, drop] = useDrop({
-    accept: 'PIECE',
-    drop: (item) => {
-      if (item.id !== id) {
-        onDropPiece(item.id, id);
-      }
-    },
-  });
+  const handleDrop = (e) => {
+    e.preventDefault();
+    const fromId = parseInt(e.dataTransfer.getData('text/plain'));
+    onDropPiece(fromId, id);
+  };
+
+  const handleDragOver = (e) => {
+    e.preventDefault();
+  };
 
   return (
     <div
-      ref={(node) => drag(drop(node))}
+      className="puzzle-piece"
+      draggable
+      onDragStart={handleDragStart}
+      onDrop={handleDrop}
+      onDragOver={handleDragOver}
       style={{
-        backgroundImage: `url(${piece.image})`,
         width: `${piece.width}px`,
         height: `${piece.height}px`,
-        opacity: isDragging ? 0.5 : 1,
-        border: '1px solid #ddd',
-        boxSizing: 'border-box',
-        cursor: 'move',
+        backgroundImage: `url(${piece.image})`,
+        backgroundSize: 'cover',
       }}
-    />
+    >
+      {/* Remove or comment out the piece-info */}
+      {/* <div className="piece-info">
+        <span className="grid-number">{gridIndex}</span>
+        <span className="piece-name">Piece {id}</span>
+      </div> */}
+    </div>
   );
 };
 

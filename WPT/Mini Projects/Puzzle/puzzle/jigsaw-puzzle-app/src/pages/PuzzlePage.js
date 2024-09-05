@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import PuzzlePiece from '../components/PuzzlePiece';
 import './PuzzlePage.css';
 
-const gridSize = 15; // 15x15 grid
-const pieceSize = 40; // Adjust this size based on your image dimensions
+const gridSize = 8; // 8x8 grid
+const pieceWidth = 135; // Width of each piece
+const pieceHeight = 240; // Height of each piece
 
 const PuzzlePage = () => {
   const [pieces, setPieces] = useState([]);
@@ -11,16 +12,17 @@ const PuzzlePage = () => {
 
   useEffect(() => {
     const piecesArray = [];
-    for (let i = 1; i <= 225; i++) {
+    for (let i = 1; i <= gridSize * gridSize; i++) {
       const piece = {
         id: i,
         image: `${process.env.PUBLIC_URL}/puzzle-pieces/piece-${i}.jpg`,
-        width: pieceSize,
-        height: pieceSize,
+        width: pieceWidth,
+        height: pieceHeight,
       };
       piecesArray.push(piece);
     }
 
+    // Shuffle pieces initially
     const shuffledPieces = [...piecesArray].sort(() => Math.random() - 0.5);
     setPieces(shuffledPieces);
   }, []);
@@ -38,16 +40,23 @@ const PuzzlePage = () => {
     setShowReference(!showReference);
   };
 
+  const solvePuzzle = () => {
+    // Sort the pieces array by the piece ID in ascending order
+    const solvedPieces = [...pieces].sort((a, b) => a.id - b.id);
+    setPieces(solvedPieces);
+  };
+
   return (
     <div className="puzzle-container">
       <h1>Jigsaw Puzzle</h1>
-      <div className="puzzle-grid">
-        {pieces.map((piece) => (
+      <div className="puzzle-grid" style={{ gridTemplateColumns: `repeat(${gridSize}, ${pieceWidth}px)` }}>
+        {pieces.map((piece, index) => (
           <PuzzlePiece
             key={piece.id}
             id={piece.id}
             piece={piece}
             onDropPiece={handleDropPiece}
+            gridIndex={index + 1} // Displaying 1-based index
           />
         ))}
       </div>
@@ -56,6 +65,13 @@ const PuzzlePage = () => {
         onClick={toggleReference}
       >
         Show Reference
+      </button>
+      <button
+        className="solve-button"
+        onClick={solvePuzzle}
+        style={{ backgroundColor: 'green' }}
+      >
+        Auto Solve
       </button>
       {showReference && (
         <div className="reference-popup">
